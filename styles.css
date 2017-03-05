@@ -58,21 +58,22 @@ html {
 	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
 }
 body {
-	color: #000;
+	color: #606060;
 	text-align: left;
 	font-size: 1em; /* используем безопасные шрифтовые CSS стеки */
 	min-height:100%;
+	font-family: 'Open Sans', sans-serif; /*шрифт для всех*/
 }
 a, a:visited { /* порядок правил для ссылок имеет значение */
-	color: #e6618c;
+	color: #339933;
 	text-decoration: underline;
 }
 a:hover {
-	color: #fdf208;
+	color: #339933;
 	text-decoration:none;
 }
 a:focus, a:active {
-	color: #c83867;
+	color: #339933;
 	text-decoration: underline;
 }
 h1, h2, h3, h4, h5, h6{
@@ -91,3 +92,36 @@ img{
     display: table;
 }
 /* --------------- /базовые настройки ---------*/
+header {
+	background: #292929;
+	overflow: hidden;
+}
+.center-block-main {
+	margin: 0 auto;
+	max-width: 990px;
+}
+.logo {
+	float: left;
+}
+.menu {
+	float: right;
+}
+.menu li {
+	float: left;
+	font-weight: 600;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 50px 35px;
+	display: block;
+	border-bottom: 3px solid transparent;
+}
+.menu li a:hover {
+	color: #58c93a;
+	border-bottom: 3px solid #58c93a;
+}
+.logo {
+	margin-top: 45px;
+}
